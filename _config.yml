@@ -7,8 +7,8 @@
 
 # Site Settings
 title                    : "Yanbo Wang's Website"
-# description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-# repository               : "RayeRen/acad-homepage.github.io"
+description              : ""
+repository               : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "wyf23187"
+  github           : "wyf23187"
   google_plus      :
   keybase          :
   instagram        :
@@ -51,7 +51,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "wyf23187"
   vine             :
   weibo            :
   xing             :
