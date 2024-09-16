@@ -1,0 +1,6 @@
+function gitbash {
+    param (
+        [string]$cmd = ""
+    )
+    & "D:\CS\Git\Git\git-bash.exe" -c "$cmd"
+}
