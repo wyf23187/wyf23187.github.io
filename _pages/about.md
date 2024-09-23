@@ -18,6 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 Yanbo Wang is an undergraduate student in the Computer Science college at Sichuan University, expected to graduate in June 2026. My research interest includes trustworty AI and Large Generative Models.
 
+> I am actively seeking a PhD position starting in Fall 2026.
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
