@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Yanbo Wang is an undergraduate student in the Computer Science college at Sichuan University, expected to graduate in June 2026. My research interest includes trustworty AI and Large Generative Models.
+Yanbo Wang is an undergraduate student in the Computer Science college, expected to graduate in June 2026. My research interest includes trustworty AI and Large Generative Models.
 
 > I am actively seeking a PhD position starting in Fall 2026.
 
@@ -54,8 +54,8 @@ Han Bao\*, **Yanbo Wang**\*, Jiayi Ye\*, Yue Huang \*, Xiangqi Wang, Xiangliang 
 - *2024.06* Gold Medal (Second Place), The 16th ICPC Sichuan Provincial Collegiate Programming Contest
 - *2024.05* Silver Medal, The 2024 ICPC China Wuhan National Invitational Contest Wuhan University
 
-# 📖 Educations
-- *2022.09 - 2026.06 (Expected)*, B.S. Candidate in Computer Science(**Top Student Program**), <img src='images/scu.png' style='width: 1.2em;'> [Sichuan University](https://www.scu.edu.cn/) 
+<!-- # 📖 Educations
+- *2022.09 - 2026.06 (Expected)*, B.S. Candidate in Computer Science(**Top Student Program**), <img src='images/scu.png' style='width: 1.2em;'> [Sichuan University](https://www.scu.edu.cn/)  -->
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 

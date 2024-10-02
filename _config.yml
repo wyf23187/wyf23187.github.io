@@ -23,8 +23,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yanbo Wang"
   avatar           : "images/wyf.png"
-  bio              : "Sichuan University"
-  location         : "Chengdu, China"
+  bio              : ""
+  location         : "China"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
