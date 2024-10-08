@@ -26,7 +26,7 @@ Yanbo Wang is an undergraduate student in the Computer Science college, expected
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission of ICLR 2025</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge]()
@@ -34,19 +34,22 @@ Yanbo Wang is an undergraduate student in the Computer Science college, expected
 Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Pin-Yu Chen, Nitesh V. Chawla, Xiangliang Zhang (\*: Equal contribution)
 
 
-[![Website Visits](https://img.shields.io/badge/Website-Visits-blue?style=flat&logo=github&logoColor=white)](https://llm-judge-bias.github.io/)
+[![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://llm-judge-bias.github.io/)
+![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red?link=https://arxiv.org/abs/2410.02736)
+![Paper](https://img.shields.io/badge/Paper-Arxiv-blue?link=https://arxiv.org/pdf/2410.02736)
+
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/autobench-v.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission of ICLR 2025</div><img src='images/autobench-v.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?]()
 
 Han Bao\*, **Yanbo Wang**\*, Jiayi Ye\*, Yue Huang \*, Xiangqi Wang, Xiangliang Zhang (\*: Equal contribution)
 
-
+[![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://autobench-v.github.io/)
 </div>
 </div>
 
