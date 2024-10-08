@@ -47,7 +47,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Nuno Moni
 
 [AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?]()
 
-Han Bao\*, **Yanbo Wang**\*, Jiayi Ye\*, Yue Huang \*, Xiangqi Wang, Xiangliang Zhang (\*: Equal contribution)
+Han Bao\*, Yue Huang \*, **Yanbo Wang**\*, Jiayi Ye\*, Xiangqi Wang, Xiangliang Zhang (\*: Equal contribution)
 
 [![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://autobench-v.github.io/)
 </div>
