@@ -29,7 +29,7 @@ Yanbo Wang is an undergraduate student in the Computer Science college, expected
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission of ICLR 2025</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge]()
+[Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/abs/2410.02736)
 
 Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Nuno Moniz, Tian Gao, Werner Geyer, Pin-Yu Chen, Nitesh V. Chawla, Xiangliang Zhang (\*: Equal contribution)
 
