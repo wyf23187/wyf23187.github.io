@@ -36,7 +36,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Nuno Moni
 
 [![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://llm-judge-bias.github.io/)
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2410.02736)
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-blue)](https://arxiv.org/pdf/2410.02736)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2410.02736)
 
 
 </div>
