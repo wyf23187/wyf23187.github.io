@@ -26,7 +26,7 @@ Yanbo Wang is an undergraduate student in the Computer Science college, expected
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Safe Generative AI Workshop @ NeurIPS 2024 (Accepted)</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/abs/2410.02736)
@@ -40,7 +40,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Pin-Yu Ch
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SFLLM Workshop @ NeurIPS 2024 (Accepted)</div><img src='images/autobench-v.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SFLLM Workshop @ NeurIPS 2024</div><img src='images/autobench-v.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?](https://arxiv.org/abs/2410.21259)
@@ -67,10 +67,8 @@ Han Bao\*, Yue Huang\*, **Yanbo Wang**\*, Jiayi Ye\*, Xiangqi Wang, Xiuying Chen
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submitted to CVPR 2025</div>
-<div class='paper-box-text' markdown="1">
 
-[UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation]()
+- [UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation]()
 
 Qihui Zhang, Munan Ning, Zheyuan Liu, **Yanbo Wang**, Jiayi Ye, Yue Huang, Shuo Yang, Xiao Chen, Yibing Song, Li Yuan
 
