@@ -69,11 +69,8 @@ Han Bao\*, Yue Huang\*, **Yanbo Wang**\*, Jiayi Ye\*, Xiangqi Wang, Xiuying Chen
 
 
 - [UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation]()
+  Qihui Zhang, Munan Ning, Zheyuan Liu, **Yanbo Wang**, Jiayi Ye, Yue Huang, Shuo Yang, Xiao Chen, Yibing Song, Li Yuan
 
-Qihui Zhang, Munan Ning, Zheyuan Liu, **Yanbo Wang**, Jiayi Ye, Yue Huang, Shuo Yang, Xiao Chen, Yibing Song, Li Yuan
-
-</div>
-</div>
 
 # 🎖 Honors and Awards
 - *2024.10* Bronze Medal, The 2024 CCF CCSP National Programming Contest
