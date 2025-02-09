@@ -16,7 +16,10 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Yanbo Wang is an undergraduate student in the Computer Science college, expected to graduate in June 2026. My research interest includes Trustworty AI and Generative Foundation Models. You can find out more about my publications at [Google Scholar](https://scholar.google.com/citations?user=ZEcwTysAAAAJ&hl=zh-CN)
+Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/). My research interests include Trustworthy AI and Generative Foundation Models. You can find out more about my work on [Google Scholar](https://scholar.google.com/citations?user=ZEcwTysAAAAJ&hl=zh-CN)
+
+<!-- Dynamic GitHub stars badge for all repositories -->
+[![GitHub stars](https://img.shields.io/github/stars/wyf23187?style=social)](https://github.com/wyf23187)
 
 > I am actively seeking a PhD position starting in Fall 2026.
 
