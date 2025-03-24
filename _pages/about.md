@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/). My research interests include LLM Reasoning, Trustworthy AI and Generative Foundation Models. You can find out more about my work on [Google Scholar](https://scholar.google.com/citations?user=ZEcwTysAAAAJ&hl=zh-CN)
+Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/). I was also a Research Assistant at the MINE Lab, University of Notre Dame, working with [Prof. Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/) and collaborating closely with [Yue Huang (PhD Candidate)](https://howiehwong.github.io/), which has been an incredibly rewarding experience. My research interests include LLM Reasoning and Generative Foundation Models.
 
 <!-- Dynamic GitHub stars badge for all repositories -->
 [![GitHub stars](https://img.shields.io/github/stars/wyf23187?style=social)](https://github.com/wyf23187)
