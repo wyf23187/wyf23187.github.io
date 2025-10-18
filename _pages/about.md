@@ -20,14 +20,44 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 
 <!-- Dynamic GitHub stars badge for all repositories -->
 [![GitHub stars](https://img.shields.io/github/stars/wyf23187?style=social)](https://github.com/wyf23187)
+[![Google Scholar Citations](https://img.shields.io/badge/dynamic/json?url={{ url }}&label=Citations&query=message&color=blue&logo=google-scholar)](https://scholar.google.com/citations?user=ZEcwTysAAAAJ)
 
 > I am actively seeking a PhD position starting in Fall 2026.
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 One paper has been accepted by **ICLR 2025**. Congratulations to Jiayi and [Yue](https://howiehwong.github.io/)!
-- *2024.09*: &nbsp;🎉🎉 Two papers have been accepted by NeurIPSW 2024!
+- *2025.05*: &nbsp;🎉🎉 Two papers have been accepted by **NeurIPS 2025**! Congratulations to all collaborators!
+- *2025.02*: &nbsp;🎉🎉 One paper has been accepted by **ACL 2025 (Main Track)**!
+- *2025.01*: &nbsp;🎉🎉 One paper has been accepted by **ICLR 2025**!
 
-# 📝 Publications 
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/dyflow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[DyFlow: Dynamic Workflow Framework for Agentic Reasoning](https://arxiv.org/abs/2509.26062)
+
+**Yanbo Wang**, Zixiang Xu, Yue Huang, Xiangqi Wang, Zirui Song, Lang Gao, Chenxi Wang, Xiangru Tang, Yue Zhao, Arman Cohan, Xiangliang Zhang, Xiuying Chen
+
+[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2509.26062)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2509.26062)
+[![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/dyflow)
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/adaptive_distraction.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Adaptive Distraction: Probing LLM Contextual Robustness with Automated Tree Search](https://arxiv.org/abs/2502.01609)
+
+**Yanbo Wang**\*, Zixiang Xu\*, Yue Huang\*, Chujie Gao, Siyuan Wu, Jiayi Ye, Xiuying Chen, Pin-Yu Chen, Xiangliang Zhang (\*: Equal contribution)
+
+[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2502.01609)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2502.01609)
+[![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/LLM_CDV)
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -43,59 +73,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Pin-Yu Ch
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">In submission</div><img src='images/CDV.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Breaking Focus: Contextual Distraction Curse in Large Language Models](https://arxiv.org/abs/2502.01609)
-
-**Yanbo Wang**\*, Zixiang Xu\*, Yue Huang\*, Chujie Gao, Siyuan Wu, Jiayi Ye, Xiuying Chen, Pin-Yu Chen, Xiangliang Zhang (\*: Equal contribution)
-
-[![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2502.01609)
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2502.01609)
-[![Github](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/LLM_CDV)
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Accepted at NAACL 2025 Demo</div><img src='images/trusteval.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[TRUSTEVAL: A Dynamic Evaluation Toolkit on Trustworthiness of Generative Foundation Models](https://trustgen.github.io/)
-
-**Yanbo Wang**\*, Jiayi Ye\*, Siyuan Wu\*, Chujie Gao, Yue Huang, Xiuying Chen, Yue Zhao, Xiangliang Zhang (\*: Equal contribution)
-
-[![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://trustgen.github.io/)
-[![Github](https://img.shields.io/badge/Code-Github-green)](https://github.com/nauyisu022/TrustEval-toolkit)
-
-</div>
-</div>
-
-- [UPME: An Unsupervised Peer Review Framework for Multimodal Large Language Model Evaluation](https://arxiv.org/abs/2503.14941)
-  Qihui Zhang, Munan Ning, Zheyuan Liu, **Yanbo Wang**, Jiayi Ye, Yue Huang, Shuo Yang, Xiao Chen, Yibing Song, Li Yuan  
-  **Accepted at CVPR 2025**  
-  [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2503.14941)
-  [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2503.14941)
-
-- [Cross-Lingual Pitfalls: Automatic Probing Cross-Lingual Weakness of Multilingual Large Language Models](https://arxiv.org/)
-  Zixiang Xu\*, **Yanbo Wang**\*, Yue Huang\*, Xiuying Chen, Jieyu Zhao, Meng Jiang, Xiangliang Zhang (\*: Equal contribution)  
-  **In submission**  
-  [![Github](https://img.shields.io/badge/Code-Github-green)](https://github.com/xzx34/Cross-Lingual-Pitfalls)
-
-- [On the Trustworthiness of Generative Foundation Models: Guideline, Assessment, and Perspective](https://arxiv.org/abs/2502.14296)
-  Yue Huang, Chujie Gao, Siyuan Wu, Haoran Wang, Xiangqi Wang, Yujun Zhou, **Yanbo Wang**, Jiayi Ye, Jiawen Shi, Zhaoyi Liu, Tianrui Guan, Dongping Chen, Ruoxi Chen, etc.
-  [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2502.14296)
-  [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2502.14296)
-  [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://trustgen.github.io/)
-  [![Docs](https://img.shields.io/badge/Documentation-Read-green)](https://trusteval-docs.readthedocs.io)
-  [![Demo](https://img.shields.io/badge/Demo-YouTube-red)](https://www.youtube.com/@TrustEval)
-  [![Github](https://img.shields.io/badge/Toolkit-Github-green)](https://github.com/TrustGen/TrustEval-toolkit)
-
-- [AutoBench-V: Can Large Vision-Language Models Benchmark Themselves?](https://arxiv.org/abs/2410.21259)
-  Han Bao\*, Yue Huang\*, **Yanbo Wang**\*, Jiayi Ye\*, Xiangqi Wang, Xiuying Chen, Mohamed Elhoseiny, Xiangliang Zhang (\*: Equal contribution)  
-  **Accepted at SFLLM Workshop @ NeurIPS 2024**  
-  [![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://autobench-v.github.io/)
-  [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2410.21259)
-  [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2410.21259)
+For more publications, please visit my [Google Scholar](https://scholar.google.com/citations?user=ZEcwTysAAAAJ)
 
 # 🎖 Honors and Awards
 - *2024.10* 2nd Place, IEEE CS North America Student Challenge 2024 (Kaggle)
@@ -104,6 +82,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Pin-Yu Ch
 - *2024.05* Silver Medal, The 2024 ICPC China Wuhan National Invitational Contest Wuhan University
 
 # 💻 Internships
-- *2024.07 - now*, Research Intern at <img src='images/Notre_Dame.jpg' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
+- *2025.03 - now*, Research Intern at <img src='images/mbzuai.png' style='width: 1.2em;'> [MBZUAI](https://mbzuai.ac.ae/), Abu Dhabi, UAE
+- *2024.05 - 2025.03*, Research Intern at <img src='images/Notre_Dame.jpg' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
 
 <a href="https://mapmyvisitors.com/web/1bwe4"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=vnKG7xcmb4-m1Z1kMj0BL_A6UV7TA7ap7MLUKPmjtuc&cl=ffffff" /></a>
