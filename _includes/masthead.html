@@ -8,20 +8,24 @@
           {% for link in site.data.navigation.main %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item">
+            <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" style="
+              background: none;
+              border: none;
+              cursor: pointer;
+              font-size: 1.2em;
+              padding: 0.5em 0.8em;
+              color: var(--text-primary);
+              transition: all 0.3s ease;
+              border-radius: 50%;
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+            " onmouseover="this.style.backgroundColor='var(--bg-secondary)'" onmouseout="this.style.backgroundColor='transparent'">
+              <i class="fas fa-moon"></i>
+            </button>
+          </li>
         </ul>
-        <button id="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" style="
-          background: none;
-          border: none;
-          cursor: pointer;
-          font-size: 1.2em;
-          padding: 0.5em;
-          margin-left: 1em;
-          color: var(--text-primary);
-          transition: all 0.3s ease;
-          border-radius: 50%;
-        " onmouseover="this.style.backgroundColor='var(--bg-secondary)'" onmouseout="this.style.backgroundColor='transparent'">
-          <i class="fas fa-moon"></i>
-        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
