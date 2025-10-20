@@ -25,8 +25,22 @@
 
 <!-- Dark Mode Toggle Script -->
 <script>
+  const THEME_ICONS = {
+    dark: `
+      <svg class="theme-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+        <path d="M12 3v1.5m0 15V21m9-9h-1.5M4.5 12H3m15.364-6.364-1.06 1.06M6.696 17.303l-1.06 1.06m0-12.726 1.06 1.06m10.607 10.607 1.06 1.06M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    `,
+    light: `
+      <svg class="theme-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+        <path d="M21 12.79A9 9 0 0 1 11.21 3a7.5 7.5 0 1 0 9.79 9.79z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
+      </svg>
+    `
+  };
+
   // Initialize theme before page load to prevent flash
   (function() {
+
     const getThemePreference = () => {
       const stored = localStorage.getItem('theme');
       if (stored) {
@@ -37,11 +51,14 @@
 
     const theme = getThemePreference();
     document.documentElement.setAttribute('data-theme', theme);
+    updateThemeIcon(theme);
 
     // Listen for system theme changes
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
       if (!localStorage.getItem('theme')) {
-        document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+        const nextTheme = e.matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', nextTheme);
+        updateThemeIcon(nextTheme);
       }
     });
   })();
@@ -62,8 +79,8 @@
     const themeToggle = document.getElementById('theme-toggle');
     if (themeToggle) {
       themeToggle.innerHTML = theme === 'dark'
-        ? '<i class="fas fa-sun"></i>'
-        : '<i class="fas fa-moon"></i>';
+        ? THEME_ICONS.dark
+        : THEME_ICONS.light;
       themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
     }
   }

@@ -130,6 +130,12 @@ h1:before, .anchor:before {
     border: 1px solid var(--border-light);
 }
 
+.theme-icon {
+  display: block;
+  width: 1.25em;
+  height: 1.25em;
+}
+
 /* Additional dark mode enhancements */
 [data-theme="dark"] {
   img:not(.author__avatar) {

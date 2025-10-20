@@ -31,7 +31,7 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/dyflow.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='{{ "/images/dyflow.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DyFlow: Dynamic Workflow Framework for Agentic Reasoning](https://arxiv.org/abs/2509.26062)
@@ -45,7 +45,7 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/adaptive_distraction.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='{{ "/images/adaptive_distraction.png" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Adaptive Distraction: Probing LLM Contextual Robustness with Automated Tree Search](https://arxiv.org/abs/2502.01609)
@@ -59,7 +59,7 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/llm-judge-bias.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='{{ "/images/llm-judge-bias.jpg" | relative_url }}' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Justice or Prejudice? Quantifying Biases in LLM-as-a-Judge](https://arxiv.org/abs/2410.02736)
@@ -82,7 +82,7 @@ For more publications, please visit my [Google Scholar](https://scholar.google.c
 - *2024.05* Silver Medal, The 2024 ICPC China Wuhan National Invitational Contest Wuhan University
 
 # 💻 Internships
-- *2025.03 - now*, Research Intern at <img src='images/mbzuai.png' style='width: 1.2em;'> [MBZUAI](https://mbzuai.ac.ae/), Abu Dhabi, UAE
-- *2024.05 - 2025.03*, Research Intern at <img src='images/Notre_Dame.jpg' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
+- *2025.03 - now*, Research Intern at <img src='{{ "/images/mbzuai.png" | relative_url }}' style='width: 1.2em;'> [MBZUAI](https://mbzuai.ac.ae/), Abu Dhabi, UAE
+- *2024.05 - 2025.03*, Research Intern at <img src='{{ "/images/Notre_Dame.jpg" | relative_url }}' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
 
 <a href="https://mapmyvisitors.com/web/1bwe4"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=vnKG7xcmb4-m1Z1kMj0BL_A6UV7TA7ap7MLUKPmjtuc&cl=ffffff" /></a>
