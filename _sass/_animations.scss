@@ -2,20 +2,79 @@
    ANIMATIONS
    ========================================================================== */
 
+/* Fade in animation - smoother with subtle upward movement */
 @-webkit-keyframes intro {
   0% {
     opacity: 0;
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
   }
 }
 
 @keyframes intro {
   0% {
     opacity: 0;
+    transform: translateY(10px);
   }
   100% {
     opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade in only (no movement) */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Subtle pulse for interactive elements */
+@keyframes subtlePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Smooth color transition */
+@keyframes colorShift {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(1.1);
   }
 }

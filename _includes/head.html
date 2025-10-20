@@ -22,3 +22,55 @@
 <head>
   <base target="_blank">
 </head>
+
+<!-- Dark Mode Toggle Script -->
+<script>
+  // Initialize theme before page load to prevent flash
+  (function() {
+    const getThemePreference = () => {
+      const stored = localStorage.getItem('theme');
+      if (stored) {
+        return stored;
+      }
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    };
+
+    const theme = getThemePreference();
+    document.documentElement.setAttribute('data-theme', theme);
+
+    // Listen for system theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+      if (!localStorage.getItem('theme')) {
+        document.documentElement.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+      }
+    });
+  })();
+
+  // Theme toggle function (called by button)
+  function toggleTheme() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+
+    // Update button icon
+    updateThemeIcon(newTheme);
+  }
+
+  function updateThemeIcon(theme) {
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+      themeToggle.innerHTML = theme === 'dark'
+        ? '<i class="fas fa-sun"></i>'
+        : '<i class="fas fa-moon"></i>';
+      themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+  }
+
+  // Initialize icon on page load
+  document.addEventListener('DOMContentLoaded', () => {
+    const theme = document.documentElement.getAttribute('data-theme');
+    updateThemeIcon(theme);
+  });
+</script>

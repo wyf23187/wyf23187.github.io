@@ -150,8 +150,81 @@ $susy: (
    Other
    ========================================================================== */
 
-$border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$border-radius              : 8px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
-$global-transition          : all 0.2s ease-in-out;
+$global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+
+/*
+   CSS Custom Properties for Dark Mode
+   ========================================================================== */
+
+:root {
+  /* Light mode colors (default) */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+
+  --text-primary: #374151;
+  --text-secondary: #64748b;
+  --text-tertiary: #9ca3af;
+
+  --border-color: #e5e7eb;
+  --border-light: #f3f4f6;
+
+  --link-color: #60a5fa;
+  --link-hover: #3b82f6;
+  --link-visited: #8b5cf6;
+
+  --accent-primary: #60a5fa;
+  --accent-secondary: #3b82f6;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  --badge-bg: #dbeafe;
+  --badge-text: #1e40af;
+
+  --code-bg: #f9fafb;
+
+  --masthead-bg: rgba(255, 255, 255, 0.85);
+  --masthead-border: rgba(229, 231, 235, 0.8);
+}
+
+/* Dark mode colors */
+[data-theme="dark"] {
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-tertiary: #2e2e2e;
+
+  --text-primary: #e5e7eb;
+  --text-secondary: #9ca3af;
+  --text-tertiary: #6b7280;
+
+  --border-color: #374151;
+  --border-light: #2e2e2e;
+
+  --link-color: #60a5fa;
+  --link-hover: #93c5fd;
+  --link-visited: #a78bfa;
+
+  --accent-primary: #60a5fa;
+  --accent-secondary: #3b82f6;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+
+  --badge-bg: #1e3a5f;
+  --badge-text: #93c5fd;
+
+  --code-bg: #242424;
+
+  --masthead-bg: rgba(26, 26, 26, 0.85);
+  --masthead-border: rgba(55, 65, 81, 0.8);
+}

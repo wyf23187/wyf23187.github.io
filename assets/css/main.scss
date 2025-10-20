@@ -46,10 +46,11 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    border-bottom: 1px #e5e7eb solid;
+    border-bottom: 1px solid var(--border-color);
     padding: 2.5em 0 2.5em 0;
-    transition: all 0.3s ease;
-
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    margin-bottom: 0.5em;
 
     .paper-box-image{
         justify-content: center;
@@ -58,10 +59,10 @@
         order: 2;
         img {
             max-width: 400px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border-radius: 12px;
+            box-shadow: var(--shadow-md);
             object-fit: cover;
-            transition: all 0.3s ease;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
     }
 
@@ -88,9 +89,15 @@
     }
 
     &:hover {
+        background-color: var(--bg-secondary);
+        padding: 2.5em 1em;
+        margin-left: -1em;
+        margin-right: -1em;
+        border-radius: 12px;
+
         .paper-box-image img {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: var(--shadow-lg);
         }
     }
 
@@ -111,11 +118,73 @@ h1:before, .anchor:before {
     position: absolute;
     margin-top: .5em;
     margin-left: -.5em;
-    color: #1e40af;
-    background-color: #dbeafe;
+    color: var(--badge-text);
+    background-color: var(--badge-bg);
     font-size: .75em;
     font-weight: 600;
-    border-radius: 6px;
+    border-radius: 8px;
     letter-spacing: 0.025em;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: var(--shadow-sm);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--border-light);
+}
+
+/* Additional dark mode enhancements */
+[data-theme="dark"] {
+  img:not(.author__avatar) {
+    opacity: 0.9;
+  }
+
+  .sidebar {
+    color: var(--text-primary);
+  }
+
+  .author__urls a {
+    color: var(--text-secondary);
+
+    &:hover {
+      color: var(--link-hover);
+    }
+  }
+
+  .greedy-nav {
+    a {
+      color: var(--text-primary);
+
+      &:hover {
+        color: var(--link-hover);
+      }
+    }
+  }
+
+  .navicon,
+  .navicon:before,
+  .navicon:after {
+    background: var(--text-primary);
+  }
+
+  #main {
+    background-color: var(--bg-primary);
+  }
+}
+
+/* Smooth transitions for all elements on theme change */
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+/* Preserve specific transitions */
+a,
+button,
+.paper-box,
+.paper-box img {
+  transition-property: all;
+}
+
+/* Image hover effects */
+img {
+  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
 }
