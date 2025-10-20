@@ -1,9 +1,9 @@
 <script>
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@main/'
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/main/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
