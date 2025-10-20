@@ -81,7 +81,13 @@
       themeToggle.innerHTML = theme === 'dark'
         ? THEME_ICONS.dark
         : THEME_ICONS.light;
-      themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      const labelText = theme === 'dark' ? '切换为浅色模式' : '切换为深色模式';
+      themeToggle.setAttribute('aria-label', labelText);
+      themeToggle.setAttribute('title', labelText);
+      const themeToggleLabel = document.getElementById('theme-toggle-label');
+      if (themeToggleLabel) {
+        themeToggleLabel.textContent = labelText;
+      }
     }
   }
 

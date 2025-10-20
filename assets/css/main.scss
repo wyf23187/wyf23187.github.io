@@ -136,6 +136,45 @@ h1:before, .anchor:before {
   height: 1.25em;
 }
 
+.sidebar__theme-toggle {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6em;
+}
+
+.sidebar__theme-toggle-button {
+  background: none;
+  border: 1px solid var(--border-light);
+  border-radius: 999px;
+  padding: 0.5em 1.1em;
+  color: var(--text-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.sidebar__theme-toggle-button:hover {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+  transform: translateY(-2px);
+}
+
+.sidebar__theme-toggle-button:focus-visible {
+  outline: 2px solid var(--link-color);
+  outline-offset: 3px;
+}
+
+.sidebar__theme-toggle-label {
+  font-size: 0.85em;
+  color: var(--text-secondary);
+}
+
 /* Additional dark mode enhancements */
 [data-theme="dark"] {
   img:not(.author__avatar) {
