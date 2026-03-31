@@ -20,7 +20,7 @@ Yanbo Wang is an incoming PhD student at [UCLA](https://www.ucla.edu/), advised 
 
 <!-- Dynamic GitHub stars badge for all repositories -->
 [![GitHub stars](https://img.shields.io/github/stars/wyf23187?style=social)](https://github.com/wyf23187)
-<a href='https://scholar.google.com/citations?user=ZEcwTysAAAAJ'><img src="https://img.shields.io/badge/dynamic/json?url={{ url }}&label=Citations&query=message&color=blue&logo=google-scholar"></a> &nbsp; <a href='https://scholar.google.com/citations?user=ZEcwTysAAAAJ'>Google Scholar Citations: <strong><span id='total_cit'>--</span></strong></a>
+<a href='https://scholar.google.com/citations?user=ZEcwTysAAAAJ'><img src="https://img.shields.io/badge/dynamic/json?url={{ url }}&label=Citations&query=message&color=blue&logo=google-scholar"></a>
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Two papers have been accepted by **NeurIPS 2025**! Congratulations to all collaborators!
@@ -39,7 +39,6 @@ Yanbo Wang is an incoming PhD student at [UCLA](https://www.ucla.edu/), advised 
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2509.26062)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2509.26062)
 [![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/dyflow)
-<span class='show_paper_citations' data='ZEcwTysAAAAJ:0EnyYjriUFMC'></span>
 
 </div>
 </div>
@@ -54,7 +53,6 @@ Yanbo Wang is an incoming PhD student at [UCLA](https://www.ucla.edu/), advised 
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2502.01609)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2502.01609)
 [![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/LLM_CDV)
-<span class='show_paper_citations' data='ZEcwTysAAAAJ:UebtZRa9Y70C'></span>
 
 </div>
 </div>
@@ -69,7 +67,6 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Pin-Yu Ch
 [![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://llm-judge-bias.github.io/)
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2410.02736)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2410.02736)
-<span class='show_paper_citations' data='ZEcwTysAAAAJ:Y0pCki6q_DkC'></span>
 
 </div>
 </div>
