@@ -14,10 +14,13 @@ body {
   padding: 0;
   padding-bottom: 0em;
   color: var(--text-primary);
-  background-color: var(--bg-primary);
+  background: var(--gradient-bg);
+  background-size: 400% 400%;
+  animation: gradientShift 30s ease infinite;
   font-family: $global-font-family;
   line-height: 1.7;
   transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */

@@ -193,6 +193,17 @@ $global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   --masthead-bg: rgba(255, 255, 255, 0.85);
   --masthead-border: rgba(229, 231, 235, 0.8);
+
+  /* Glass-morphism tokens */
+  --glass-bg: rgba(255, 255, 255, 0.55);
+  --glass-bg-hover: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.4);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.12);
+  --glass-glow: 0 0 20px rgba(96, 165, 250, 0.1);
+
+  /* Dynamic gradient background */
+  --gradient-bg: linear-gradient(-45deg, #f8fafc, #eef2ff, #f8fafc, #f0f4ff);
 }
 
 /* Dark mode colors */
@@ -227,4 +238,15 @@ $global-transition          : all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
   --masthead-bg: rgba(26, 26, 26, 0.85);
   --masthead-border: rgba(55, 65, 81, 0.8);
+
+  /* Glass-morphism tokens (dark) */
+  --glass-bg: rgba(30, 30, 30, 0.55);
+  --glass-bg-hover: rgba(40, 40, 40, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.35);
+  --glass-glow: 0 0 20px rgba(96, 165, 250, 0.08);
+
+  /* Dynamic gradient background (dark) */
+  --gradient-bg: linear-gradient(-45deg, #1a1a2e, #1b2838, #1a1a2e, #16213e);
 }

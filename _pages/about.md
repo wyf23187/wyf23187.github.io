@@ -9,20 +9,18 @@ redirect_from:
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@main/" %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@google-scholar-stats/" %}
 {% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/main/" %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/google-scholar-stats/" %}
 {% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+{% assign url = gsDataBaseUrl | append: "gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/). I also collaborate with MINE Lab at the University of Notre Dame, under the guidance of [Prof. Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/) and in close collaboration with [Yue Huang (PhD Candidate)](https://howiehwong.github.io/), which has been an incredibly rewarding experience. My research interests include LLM Reasoning and Generative Foundation Models.
+Yanbo Wang is an incoming PhD student at [UCLA](https://www.ucla.edu/), advised by [Prof. Wei Wang](https://web.cs.ucla.edu/~weiwang/). His research interests include Agentic AI and Generative Foundation Models. Previously, he was a Research Intern at [MBZUAI](https://mbzuai.ac.ae/) supervised by [Prof. Xiuying Chen](https://iriscxy.github.io/), and a Research Intern (Remote) at the University of Notre Dame supervised by [Prof. Xiangliang Zhang](https://sites.nd.edu/xiangliang-zhang/) and [Yue Huang](https://howiehwong.github.io/).
 
 <!-- Dynamic GitHub stars badge for all repositories -->
 [![GitHub stars](https://img.shields.io/github/stars/wyf23187?style=social)](https://github.com/wyf23187)
-[![Google Scholar Citations](https://img.shields.io/badge/dynamic/json?url={{ url }}&label=Citations&query=message&color=blue&logo=google-scholar)](https://scholar.google.com/citations?user=ZEcwTysAAAAJ)
-
-> I am actively seeking a PhD position starting in Fall 2026.
+<a href='https://scholar.google.com/citations?user=ZEcwTysAAAAJ'><img src="https://img.shields.io/badge/dynamic/json?url={{ url }}&label=Citations&query=message&color=blue&logo=google-scholar"></a> &nbsp; <a href='https://scholar.google.com/citations?user=ZEcwTysAAAAJ'>Google Scholar Citations: <strong><span id='total_cit'>--</span></strong></a>
 
 # 🔥 News
 - *2025.05*: &nbsp;🎉🎉 Two papers have been accepted by **NeurIPS 2025**! Congratulations to all collaborators!
@@ -41,6 +39,7 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2509.26062)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2509.26062)
 [![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/dyflow)
+<span class='show_paper_citations' data='ZEcwTysAAAAJ:0EnyYjriUFMC'></span>
 
 </div>
 </div>
@@ -55,6 +54,7 @@ Yanbo Wang is currently a Research Intern at [MBZUAI](https://mbzuai.ac.ae/), su
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2502.01609)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2502.01609)
 [![Code](https://img.shields.io/badge/Code-Github-green)](https://github.com/wyf23187/LLM_CDV)
+<span class='show_paper_citations' data='ZEcwTysAAAAJ:UebtZRa9Y70C'></span>
 
 </div>
 </div>
@@ -69,6 +69,7 @@ Jiayi Ye\*, **Yanbo Wang**\*, Yue Huang\*, Dongping Chen, Qihui Zhang, Pin-Yu Ch
 [![Website Visits](https://img.shields.io/badge/Github-Website-blue?style=flat&logo=github&logoColor=white)](https://llm-judge-bias.github.io/)
 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2410.02736)
 [![Paper](https://img.shields.io/badge/Paper-PDF-blue)](https://arxiv.org/pdf/2410.02736)
+<span class='show_paper_citations' data='ZEcwTysAAAAJ:Y0pCki6q_DkC'></span>
 
 </div>
 </div>
@@ -82,7 +83,7 @@ For more publications, please visit my [Google Scholar](https://scholar.google.c
 - *2024.05* Silver Medal, The 2024 ICPC China Wuhan National Invitational Contest Wuhan University
 
 # 💻 Internships
-- *2025.03 - now*, Research Intern at <img src='{{ "/images/mbzuai.png" | relative_url }}' style='width: 1.2em;'> [MBZUAI](https://mbzuai.ac.ae/), Abu Dhabi, UAE
-- *2024.05 - 2025.03*, Research Intern at <img src='{{ "/images/Notre_Dame.jpg" | relative_url }}' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) 
+- *2025.03 - 2025.09*, Research Intern at <img src='{{ "/images/mbzuai.png" | relative_url }}' style='width: 1.2em;'> [MBZUAI](https://mbzuai.ac.ae/), Abu Dhabi, UAE
+- *2024.05 - 2025.03*, Research Intern at <img src='{{ "/images/Notre_Dame.jpg" | relative_url }}' style='width: 1.2em;'> [University of Notre Dame](https://www.nd.edu/) (Remote) 
 
 <a href="https://mapmyvisitors.com/web/1bwe4"  title="Visit tracker"><img src="https://mapmyvisitors.com/map.png?d=vnKG7xcmb4-m1Z1kMj0BL_A6UV7TA7ap7MLUKPmjtuc&cl=ffffff" /></a>

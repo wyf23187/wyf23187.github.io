@@ -47,10 +47,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px solid var(--border-color);
-    padding: 2.5em 0 2.5em 0;
+    padding: 2.5em 1em;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 12px;
     margin-bottom: 0.5em;
+    background: transparent;
 
     .paper-box-image{
         justify-content: center;
@@ -90,10 +91,7 @@
 
     &:hover {
         background-color: var(--bg-secondary);
-        padding: 2.5em 1em;
-        margin-left: -1em;
-        margin-right: -1em;
-        border-radius: 12px;
+        box-shadow: var(--shadow-md);
 
         .paper-box-image img {
             transform: translateY(-4px) scale(1.02);
@@ -119,15 +117,16 @@ h1:before, .anchor:before {
     margin-top: .5em;
     margin-left: -.5em;
     color: var(--badge-text);
-    background-color: var(--badge-bg);
+    background: var(--glass-bg);
     font-size: .75em;
     font-weight: 600;
     border-radius: 8px;
     letter-spacing: 0.025em;
     box-shadow: var(--shadow-sm);
     transition: all 0.3s ease;
-    backdrop-filter: blur(8px);
-    border: 1px solid var(--border-light);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid var(--glass-border);
 }
 
 .theme-icon {
@@ -229,7 +228,30 @@ button,
   transition-property: all;
 }
 
-/* Image hover effects */
-img {
-  transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+/* Subtle hover for list items (honors, internships, news) */
+.page__content > ul > li {
+  padding: 0.5em 0.8em;
+  margin-bottom: 0.3em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--bg-secondary);
+  }
+}
+
+/* Sidebar theme toggle */
+.sidebar__theme-toggle-button {
+  background: var(--bg-secondary) !important;
+  border: 1px solid var(--border-color) !important;
+  box-shadow: var(--shadow-sm);
+
+  &:hover {
+    background: var(--bg-tertiary) !important;
+  }
+}
+
+/* Author avatar subtle ring */
+.author__avatar img {
+  border: 2px solid var(--border-color) !important;
 }
