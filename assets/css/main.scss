@@ -183,34 +183,6 @@ h1:before, .anchor:before {
   .sidebar {
     color: var(--text-primary);
   }
-
-  .author__urls a {
-    color: var(--text-secondary);
-
-    &:hover {
-      color: var(--link-hover);
-    }
-  }
-
-  .greedy-nav {
-    a {
-      color: var(--text-primary);
-
-      &:hover {
-        color: var(--link-hover);
-      }
-    }
-  }
-
-  .navicon,
-  .navicon:before,
-  .navicon:after {
-    background: var(--text-primary);
-  }
-
-  #main {
-    background-color: var(--bg-primary);
-  }
 }
 
 /* Smooth transitions for all elements on theme change */
