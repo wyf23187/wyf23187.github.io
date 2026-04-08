@@ -2,3 +2,91 @@
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
+
+<!-- Scroll-driven animations & interactions -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  // ---- 1. Fade-in sections on scroll ----
+  var sections = document.querySelectorAll('.page__content > h1, .page__content > .paper-box, .page__content > ul, .page__content > p, .page__content > div');
+  sections.forEach(function (el, i) {
+    el.classList.add('fade-in-section');
+    el.style.transitionDelay = (i * 0.04) + 's';
+  });
+
+  var fadeObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-in-section').forEach(function (el) {
+    fadeObserver.observe(el);
+  });
+
+  // ---- 2. Section heading underline animation ----
+  var headings = document.querySelectorAll('.page__content h1');
+  var headingObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('line-visible');
+      }
+    });
+  }, { threshold: 0.5 });
+
+  headings.forEach(function (h) { headingObserver.observe(h); });
+
+  // ---- 3. Navigation active section highlight ----
+  var navLinks = document.querySelectorAll('.greedy-nav a[href^="/#"]');
+  var sectionIds = [];
+  navLinks.forEach(function (link) {
+    var id = link.getAttribute('href').replace('/', '');
+    if (id.startsWith('#')) sectionIds.push({ id: id.substring(1), link: link });
+  });
+
+  var navObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      var id = entry.target.id || entry.target.querySelector('[id]')?.id;
+      if (!id) return;
+      sectionIds.forEach(function (s) {
+        if (s.id === id || s.id === '-' + id) {
+          if (entry.isIntersecting) {
+            navLinks.forEach(function (l) { l.classList.remove('nav-active'); });
+            s.link.classList.add('nav-active');
+          }
+        }
+      });
+    });
+  }, { threshold: 0.2, rootMargin: '-80px 0px -60% 0px' });
+
+  headings.forEach(function (h) {
+    var anchor = h.querySelector('.anchor') || h.previousElementSibling;
+    if (anchor && anchor.id) navObserver.observe(anchor);
+    if (h.id) navObserver.observe(h);
+  });
+
+  // Also observe span anchors
+  document.querySelectorAll('span.anchor[id]').forEach(function (el) {
+    navObserver.observe(el);
+  });
+
+  // ---- 4. Back to top button ----
+  var btn = document.querySelector('.back-to-top');
+  if (btn) {
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 300) {
+        btn.classList.add('is-visible');
+      } else {
+        btn.classList.remove('is-visible');
+      }
+    }, { passive: true });
+
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+});
+</script>
